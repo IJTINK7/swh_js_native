@@ -29,3 +29,16 @@ console.log(556-17)
 // c) Тернарый оператор
 let a = 12;
 console.log(a > 17 ? true: false);
+
+// 4) Инкремент и Декремент
+let index = 1;
+console.log(index++) // 1
+console.log(++index) // 3
+console.log(++index) // 4
+console.log(index++) // 4
+console.log(index) // 5
+console.log(index--) // 5
+console.log(--index) // 3
+console.log(index--) // 3
+console.log(index--) // 2
+console.log(index) // 1
