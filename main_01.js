@@ -14,3 +14,18 @@
 console.log(typeof nullType) // "object"
 console.log(typeof (typeof nullType)) // string
 
+// 3) Операнды и операторы
+// a) Унарные операторы (операнды- цифры)
+console.log(+3)
+console.log(-9)
+console.log(+7)
+console.log(-17)
+
+// b) Бинарые операторы
+console.log(2+3)
+console.log(124-9)
+console.log(12+7)
+console.log(556-17)
+// c) Тернарый оператор
+let a = 12;
+console.log(a > 17 ? true: false);
