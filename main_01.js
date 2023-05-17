@@ -66,3 +66,16 @@
 // console.log("5px" < 10) // false
 // console.log("A" > "a")
 // console.log("B" < "b")
+
+// 7) Логические операторы
+// ! -  не (наивысший приоритет)
+// && - и (ниже)
+// || - или (низкий)
+
+console.log(10 && 2)
+console.log(0 && 1)
+console.log(23 || 7)
+console.log(0 || 9)
+console.log(0 || 1 && 4)
+console.log(0 && 2 || 8)
+
