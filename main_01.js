@@ -98,3 +98,14 @@
 // console.log(!(a || !b))
 // console.log(!(!a || !b))
 
+// Задачи с переменными:
+// let a = ""; // false !! - для быстрой конвертации примитива в boolean
+// let b = 9; // true
+// let c = null; // false
+//
+// console.log(!!(!a || !b && !c))
+// console.log(!!(a || !b && !c))
+// console.log(!!(a || !b || c))
+// console.log(!!(!a && !b && !c))
+// console.log(!!(!a || !b && !c))
+
