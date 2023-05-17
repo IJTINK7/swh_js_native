@@ -72,10 +72,20 @@
 // && - и (ниже)
 // || - или (низкий)
 
-console.log(10 && 2)
-console.log(0 && 1)
-console.log(23 || 7)
-console.log(0 || 9)
-console.log(0 || 1 && 4)
-console.log(0 && 2 || 8)
+// console.log(10 && 2)
+// console.log(0 && 1)
+// console.log(23 || 7)
+// console.log(0 || 9)
+// console.log(0 || 1 && 4)
+// console.log(0 && 2 || 8)
+
+// let a = true;
+// let b = true;
+// console.log(a && b)
+// console.log(!a && b)
+// console.log(a && !b)
+// console.log(!a && !b)
+// console.log(!(a && b))
+// console.log(!(!a && !b))
+
 
