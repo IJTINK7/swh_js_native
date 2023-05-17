@@ -58,10 +58,11 @@
 // console.log(5 === "5")
 //
 // console.log(5 > 5)
-// console.log(5 < 5)
+// console.log(5 < 5) // false
 // console.log(5 >= 5)
 // console.log(5 <= 5)
-// console.log("5px" > 3)
-// console.log("5px" < 10)
+// console.log("5px" > 3) // false - Строку "5px" - пробразует в число - NaN
+// console.log(Number("5px"))// NaN
+// console.log("5px" < 10) // false
 // console.log("A" > "a")
 // console.log("B" < "b")
