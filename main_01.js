@@ -42,3 +42,9 @@ console.log(--index) // 3
 console.log(index--) // 3
 console.log(index--) // 2
 console.log(index) // 1
+
+// 5) Операторы сравнения == и ===
+
+console.log(1 == "1")
+console.log(1 === "1")
+
