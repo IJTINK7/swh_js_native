@@ -88,4 +88,13 @@
 // console.log(!(a && b))
 // console.log(!(!a && !b))
 
+// let a = true;
+// let b = true;
+// console.log(a || b)
+// console.log(!a || b)
+// console.log(a || !b)
+// console.log(!a || !b)
+// console.log(!(a || b))
+// console.log(!(a || !b))
+// console.log(!(!a || !b))
 
