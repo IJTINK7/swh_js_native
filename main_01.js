@@ -45,6 +45,7 @@ console.log(index) // 1
 
 // 5) Операторы сравнения == и ===
 
-console.log(1 == "1")
-console.log(1 === "1")
+console.log(1 == "1")  //сравниваются данные и идёт преобразование
+console.log(1 === "1") // учитывает тип данных при сравнении
 
+// falsy значения : 0 "" undefined null false
