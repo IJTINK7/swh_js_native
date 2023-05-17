@@ -1,51 +1,67 @@
 //1) Типы данных:
 // I) Примитивы:
-    const string = '123';
-    const number = 123;
-    const bigInt = 10n;
-    const nullType = null;
-    const undefinedType = undefined;
-    const boolean = true;
-    // const symbol = symbol;
-// II) Объекты
-    const obj = {}
-
-// 2)typeof - возвращает тип данных в строком виде
-console.log(typeof nullType) // "object"
-console.log(typeof (typeof nullType)) // string
+//     const string = '123';
+//     const number = 123;
+//     const bigInt = 10n;
+//     const nullType = null;
+//     const undefinedType = undefined;
+//     const boolean = true;
+//     // const symbol = symbol;
+// // II) Объекты
+//     const obj = {}
+//
+// // 2)typeof - возвращает тип данных в строком виде
+// console.log(typeof nullType) // "object"
+// console.log(typeof (typeof nullType)) // string
 
 // 3) Операнды и операторы
 // a) Унарные операторы (операнды- цифры)
-console.log(+3)
-console.log(-9)
-console.log(+7)
-console.log(-17)
+// console.log(+3)
+// console.log(-9)
+// console.log(+7)
+// console.log(-17)
 
 // b) Бинарые операторы
-console.log(2+3)
-console.log(124-9)
-console.log(12+7)
-console.log(556-17)
+// console.log(2+3)
+// console.log(124-9)
+// console.log(12+7)
+// console.log(556-17)
 // c) Тернарый оператор
-let a = 12;
-console.log(a > 17 ? true: false);
+// let a = 12;
+// console.log(a > 17 ? true: false);
 
 // 4) Инкремент и Декремент
-let index = 1;
-console.log(index++) // 1
-console.log(++index) // 3
-console.log(++index) // 4
-console.log(index++) // 4
-console.log(index) // 5
-console.log(index--) // 5
-console.log(--index) // 3
-console.log(index--) // 3
-console.log(index--) // 2
-console.log(index) // 1
+// let index = 1;
+// console.log(index++) // 1
+// console.log(++index) // 3
+// console.log(++index) // 4
+// console.log(index++) // 4
+// console.log(index) // 5
+// console.log(index--) // 5
+// console.log(--index) // 3
+// console.log(index--) // 3
+// console.log(index--) // 2
+// console.log(index) // 1
 
 // 5) Операторы сравнения == и ===
 
-console.log(1 == "1")  //сравниваются данные и идёт преобразование
-console.log(1 === "1") // учитывает тип данных при сравнении
+// console.log(1 == "1")  //сравниваются данные и идёт преобразование
+// console.log(1 === "1") // учитывает тип данных при сравнении
 
-// falsy значения : 0 "" undefined null false
+// 6) falsy значения : 0 "" undefined null false
+
+// Задачи на сравнение:
+
+// console.log(5 == 5)
+// console.log(5 == "5")
+// console.log(5 === 5)
+// console.log(5 === "5")
+//
+// console.log(5 > 5)
+// console.log(5 < 5)
+// console.log(5 >= 5)
+// console.log(5 <= 5)
+// console.log("5px" > 3)
+// console.log("5px" < 10)
+// console.log("A" > "a")
+// console.log("B" < "b")
