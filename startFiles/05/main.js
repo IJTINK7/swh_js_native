@@ -4,7 +4,36 @@
 
 // способы создания метода объекта
 
-const
+const user = {
+    name: "Roma",
+    age: 28,
+    // 1 способ
+    sayHi(){
+        return "Hi, guys!"
+    },
+    // 2 способ
+    sayHello: function () {
+        return "Hello, guys!"
+    }
+}
+// 3 способ
+user.sayHey = function () {
+    return "Hey, guys!"
+}
+
+// 4 способ
+function sayHe() {
+    return "He, guys!"
+}
+user.sayHe = sayHe;
+// 5 способ
+
+const sayHo = function (){
+    return "Ho, guys!"
+}
+user.sayHo = sayHo;
+console.log(user)
+console.log(user.sayHe())
 
 //=============================this==================================
 
