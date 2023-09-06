@@ -15,9 +15,9 @@
 // console.log(typeof (typeof nullType)) // string
 
 // 3) Операнды и операторы
-// a) Унарные операторы (операнды- цифры)
+// // a) Унарные операторы (операнды- цифры)
 // console.log(+3)
-// console.log(-9)
+console.log(-9)
 // console.log(+7)
 // console.log(-17)
 
