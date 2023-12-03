@@ -191,11 +191,26 @@
 // console.log(checkPositiveValue(-5))
 
 
+// Оператор нулевого слияния ?? ("Nullish coalescing operator")
+/*
+    Проверяет на наличие null или undefined, если одно из нох есть, то использует то что значение, которое стоит
+     после ??, а если их нет, то в таком случае использует именно то значение, которое стоит до ??
+ */
 
-
-
-
-
-
-
-
+//
+// let username = null;
+// const greeting = `Привет, ${username ?? 'Гость'}!`;
+// console.log(greeting); // Привет, Гость!
+//
+//
+// let username2 = undefined;
+// const greeting2 = `Привет, ${username2 ?? 'Гость2'}!`;
+// console.log(greeting2); // Привет, Гость2!
+//
+// let username3 = "Валера";
+// const greeting3 = `Привет, ${username3 ?? 'Гость3'}!`;
+// console.log(greeting3); // Привет, Валера!
+//
+// let username4 = 123;
+// const greeting4 = `Привет, ${username4 ?? 'Гость4'}!`;
+// console.log(greeting4); // Привет, 123!
