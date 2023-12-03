@@ -280,26 +280,74 @@
  */
 
 
-const checkActionType = (actionType) => {
-    switch (actionType) {
-        case ('FETCH_DATA'):
-            return('Производится отправка запроса на сервер')
-        case ('LOADING_DATA'):
-            return ('Производится загрузка данных - покажи Preloader')
-        case ('ERROR_DATA'):
-            return ('Произошла ошибка при получении данных - выведи сообщение с предупреждением')
-        case ('GET_CURRENT_LOCATION'):
-            return ('Производится получение текущих координат')
-        case ('ADD_NOTE'):
-            return ('Создаем заметку')
-        default:
-            return ('Дефолтное состояние - ничего не делаем')
-    }
-}
+// const checkActionType = (actionType) => {
+//     switch (actionType) {
+//         case ('FETCH_DATA'):
+//             return('Производится отправка запроса на сервер')
+//         case ('LOADING_DATA'):
+//             return ('Производится загрузка данных - покажи Preloader')
+//         case ('ERROR_DATA'):
+//             return ('Произошла ошибка при получении данных - выведи сообщение с предупреждением')
+//         case ('GET_CURRENT_LOCATION'):
+//             return ('Производится получение текущих координат')
+//         case ('ADD_NOTE'):
+//             return ('Создаем заметку')
+//         default:
+//             return ('Дефолтное состояние - ничего не делаем')
+//     }
+// }
+//
+// console.log(checkActionType('SOMETHING'))
+// console.log(checkActionType('ADD_NOTE'))
+// console.log(checkActionType('GET_CURRENT_LOCATION'))
+// console.log(checkActionType('ERROR_DATA'))
+// console.log(checkActionType('LOADING_DATA'))
+// console.log(checkActionType('FETCH_DATA'))
 
-console.log(checkActionType('SOMETHING'))
-console.log(checkActionType('ADD_NOTE'))
-console.log(checkActionType('GET_CURRENT_LOCATION'))
-console.log(checkActionType('ERROR_DATA'))
-console.log(checkActionType('LOADING_DATA'))
-console.log(checkActionType('FETCH_DATA'))
+
+
+// циклы
+
+// 1. Вывести в консоль числа от 1 до 10.
+// for (let i = 1; i <=10 ; i++) {
+//     console.log(i)
+// }
+
+// 2. Вывести в консоль таблицу умножения на 5 в виде: "5 x 1 = 5", "5 x 2 = 10", ..., "5 x 10 = 50".
+// for (let i = 1; i <=10 ; i++) {
+//     console.log(`5 х ${i} = ${5*i}`)
+// }
+// 3. Вычислить и вывести в консоль сумму чисел от 1 до 100.
+// let sum = 0
+// for (let i = 1; i <=100 ; i++) {
+//     sum = sum + i
+// }
+// console.log(sum)
+// 4. Вычислить и вывести в консоль среднее арифметическое чисел от 1 до 10.
+// let sum2 = 0
+// for (let i = 1; i <=10 ; i++) {
+//     sum2 = sum2 + i
+// }
+// console.log(sum2 / 10)
+
+// 5. Вычислить и вывести в консоль произведение чисел от 1 до 5.
+
+// let product = 1
+// for (let i = 1; i <=5 ; i++) {
+//     product = product * i
+// }
+// console.log(product)
+
+// 6. Вывести в консоль все нечетные числа от 1 до 20.
+// for (let i = 1; i <=20 ; i++) {
+//     if(i % 2 === 0){
+//         continue
+//     } else {
+//         console.log(i)
+//     }
+// }
+
+
+
+
+
