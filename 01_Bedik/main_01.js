@@ -267,3 +267,39 @@
 
 
 
+/*
+1.Напишите функцию checkActionType, принимающую в качестве параметра определенное действие (actionType),
+которая выполняет какую-либо логику (действие) в зависимости от полученного actionType:
+Если actionType равен 'FETCH_DATA', то выведи в консоль - 'Производится отправка запроса на сервер'.
+Если actionType равен 'LOADING_DATA', то выведи в консоль - 'Производится загрузка данных - покажи Preloader'.
+Если actionType равен 'ERROR_DATA', то выведи в консоль - 'Произошла ошибка при получении данных - выведи сообщение с предупреждением'.
+Если actionType равен 'GET_CURRENT_LOCATION', то выведи в консоль - 'Производится получение текущих координат'.
+Если actionType равен 'ADD_NOTE', то выведи в консоль - 'Создаем заметку'.
+В остальных случаях выведи в консоль - 'Дефолтное состояние - ничего не делаем'.
+Решить с помощью switch
+ */
+
+
+const checkActionType = (actionType) => {
+    switch (actionType) {
+        case ('FETCH_DATA'):
+            return('Производится отправка запроса на сервер')
+        case ('LOADING_DATA'):
+            return ('Производится загрузка данных - покажи Preloader')
+        case ('ERROR_DATA'):
+            return ('Произошла ошибка при получении данных - выведи сообщение с предупреждением')
+        case ('GET_CURRENT_LOCATION'):
+            return ('Производится получение текущих координат')
+        case ('ADD_NOTE'):
+            return ('Создаем заметку')
+        default:
+            return ('Дефолтное состояние - ничего не делаем')
+    }
+}
+
+console.log(checkActionType('SOMETHING'))
+console.log(checkActionType('ADD_NOTE'))
+console.log(checkActionType('GET_CURRENT_LOCATION'))
+console.log(checkActionType('ERROR_DATA'))
+console.log(checkActionType('LOADING_DATA'))
+console.log(checkActionType('FETCH_DATA'))
