@@ -214,3 +214,56 @@
 // let username4 = 123;
 // const greeting4 = `Привет, ${username4 ?? 'Гость4'}!`;
 // console.log(greeting4); // Привет, 123!
+
+
+// Switch
+/*
+1.Напишите функцию getDiscount, принимающую параметр userStatus,
+которая присваивает скидку в зависимости от статуса пользователя:
+Если статус пользователя равен 'VIP', то скидка равна 25%.
+Если статус пользователя равен 'privileged', то скидка равна 15%.
+Если статус пользователя равен 'clubMember', то скидка равна 5%.
+В остальных случаях скидка равна 0%.
+Решить двумя способами, с помощью else if и switch
+ */
+//
+// const getDiscount = (userStatus) => {
+//     switch (userStatus) {
+//         case('VIP') :
+//             return 25
+//         case('privileged') :
+//             return 15
+//         case('clubMember') :
+//             return 5
+//         default:
+//             return 0
+//     }
+// }
+//
+// const getDiscount2 = (userStatus) => {
+//     if (userStatus === 'VIP') {
+//         return 25
+//     } else if (userStatus === 'privileged') {
+//         return 15
+//     } else if (userStatus === 'clubMember') {
+//         return 5
+//     } else {
+//         return 0
+//     }
+// }
+//
+// console.log(getDiscount('other'))
+// console.log(getDiscount('privileged'))
+// console.log(getDiscount('clubMember'))
+// console.log(getDiscount('VIP'))
+//
+// console.log(getDiscount2('privileged'))
+// console.log(getDiscount2('Privileged'))
+// console.log(getDiscount2('VIP'))
+// console.log(getDiscount2('vip'))
+// console.log(getDiscount2('clubMember'))
+// console.log(getDiscount2('other'))
+
+
+
+
