@@ -17,7 +17,7 @@
 // 3) Операнды и операторы
 // // a) Унарные операторы (операнды- цифры)
 // console.log(+3)
-console.log(-9)
+// console.log(-9)
 // console.log(+7)
 // console.log(-17)
 
@@ -99,21 +99,12 @@ console.log(-9)
 // console.log(!(!a || !b))
 
 // Задачи с переменными:
-// let a = ""; // false !! - для быстрой конвертации примитива в boolean
-// let b = 9; // true
-// let c = null; // false
-//
-// console.log(!!(!a || !b && !c))
-// console.log(!!(a || !b && !c))
-// console.log(!!(a || !b || c))
-// console.log(!!(!a && !b && !c))
-// console.log(!!(!a || !b && !c))
+let a = ""; // false !! - для быстрой конвертации примитива в boolean
+let b = 9; // true
+let c = null; // false
 
-
-
-
-
-
-
-
-
+console.log(!!(!a || !b && !c)) // true
+console.log(!!(a || !b && !c)) // false
+console.log(!!(a || !b || c)) // false
+console.log(!!(!a && !b && !c)) // false
+console.log(!!(!a || !b && !c)) // true
