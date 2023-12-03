@@ -348,6 +348,22 @@
 // }
 
 
+// map
+const arr = [1, 2, 3, 4, 5]
+const res = arr.map((element, index, array) => {
+    console.log('element:', `${element}`)
+    console.log('index:', index)
+    console.log('array:', array)
+    console.log('===================')
+})
+console.log(res)
+
+// filter
+const res1 = arr.filter(el => el > 3)
+console.log(res1)
+
+
+
 
 
 
