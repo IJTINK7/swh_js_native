@@ -33,59 +33,60 @@
 
 //============================== Цепочка промисов =============================================
 
-
+// let newPromise = new Promise ((resolve, reject)=>{
+//     reject("123")
+// })
+//
+//     .catch((rej) => 125)
+//     .catch(r=>console.log(r) )
 
 
 // ============================================= Задачи на отработку =====================================================
 
 // ============================================= Задача 1 =====================================================
-/*
-!!!!
-const p = new Promise((resolve, reject) => {
-    reject(Error('The Fails!'))
-})
-p.catch(error => console.log(error.message))
-p.catch(error => console.log(error.message))
-!!!!
- */
+
+
+// const p = new Promise((resolve, reject) => {
+//     reject(Error('The Fails!'))
+// })
+// p.catch(error => console.log(error.message))
+// p.catch(error => console.log(error.message))
+
 
 // ============================================= Задача 2 =====================================================
-/*
-!!!!
-const p = new Promise((resolve, reject) => {
-    reject(Error('The Fails!'))
-  })
-  .catch(error => console.log(error))
-  .then(error => console.log(error))
-!!!!
- */
+
+// const p = new Promise((resolve, reject) => {
+//     reject('The Fails!')
+//   })
+//   .catch(error => console.log(error))
+//   .then(error => console.log(error))
+//
+
 
 // ============================================= Задача 3 =====================================================
-/*
-!!!!
-const p = new Promise((resolve, reject) => {
-    reject(Error('The Fails!'))
-  })
-  .catch(error => console.log(error.message))
-  .catch(error => console.log(error.message))
-!!!!
- */
+
+// const p = new Promise((resolve, reject) => {
+//     reject(Error('The Fails!'))
+//   })
+//   .catch(error => console.log(error.message))
+//   .catch(error => console.log(error.message))
+//
 
 // ============================================= Задача 4 =====================================================
-/*
-!!!!
-new Promise((resolve, reject) => {
-    resolve('Success!')
-  })
-  .then(() => {
-    throw Error('Oh noes!')
-  })
-  .catch(error => {
-    return "actually, that worked"
-  })
-  .catch(error => console.log(error.message))
-!!!!
- */
+
+// new Promise((resolve, reject) => {
+//     resolve('Success!')
+//   })
+//   .then(() => {
+//     throw Error('Oh noes!')
+//   })
+//   .catch(error => {
+//       return "Hehe"
+//   }) // Делается резолв
+//   .catch(error2 => console.log(error2 + 123123)) // Не попадаем
+//     .then(r => console.log(r))  // Hehe
+//
+
 
 // ============================================= Задача 5 =====================================================
 /*
